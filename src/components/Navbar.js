@@ -14,7 +14,7 @@ const Navbar = () => {
                 <div className="container mx-auto px-4 lg:px-12">
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
-                            <a href="#" className="text-white font-semibold text-lg">
+                            <a href="#" className="text-white font-semibold text-xl">
                                 Portfolio.
                             </a>
                         </div>
