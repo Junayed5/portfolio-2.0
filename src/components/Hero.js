@@ -4,6 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsGithub } from "react-icons/bs";
+import './hero.css'
 
 const Hero = () => {
     return (
@@ -57,11 +58,15 @@ const Hero = () => {
                         </button>
                     </div>
                     <div className="md:col-span-1 px-4">
-                        <img
+                        {/* <img
                             src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGVyc29ufGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60"
                             alt="Portfolio Image"
                             className="w-full rounded"
-                        />
+                        /> */}
+                        <div className="h-48 w-48">
+                            <img className='w-fit' src="me.jpg" alt="" />
+                        </div>
+
                     </div>
                 </div>
             </div>
