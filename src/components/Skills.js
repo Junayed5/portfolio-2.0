@@ -134,6 +134,45 @@ const Skills = () => {
                 </div>
 
                 <h3 className='text-3xl font-bold text-center pt-8 pb-3'><span className=''>Professional</span>  Skill </h3>
+
+                <div className='grid grid-cols-1 md:grid-cols-4 gap-x-12 w-fit mx-auto'>
+                    <div>
+                        <div className='w-52 flex justify-between px-1 py-2 '>
+                            <p className='font-semibold'>Team work</p>
+                            <p className='font-semibold'>90%</p>
+                        </div>
+                        <div className='h-3 w-52 bg-gray-900 rounded-full relative '>
+                            <span className='absolute bg-cyan-300 h-3 w-44 rounded-full shadow-sm shadow-cyan-300'></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='w-52 flex justify-between px-1 py-2 '>
+                            <p className='font-semibold'>Creativity</p>
+                            <p className='font-semibold'>70%</p>
+                        </div>
+                        <div className='h-3 w-52 bg-gray-900 rounded-full relative '>
+                            <span className='absolute bg-cyan-300 h-3 w-36 rounded-full shadow-sm shadow-cyan-300'></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='w-52 flex justify-between px-1 py-2 '>
+                            <p className='font-semibold'>Project Management</p>
+                            <p className='font-semibold'>50%</p>
+                        </div>
+                        <div className='h-3 w-52 bg-gray-900 rounded-full relative '>
+                            <span className='absolute bg-cyan-300 h-3 w-28 rounded-full shadow-sm shadow-cyan-300'></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div className='w-52 flex justify-between px-1 py-2 '>
+                            <p className='font-semibold'>Communication</p>
+                            <p className='font-semibold'>70%</p>
+                        </div>
+                        <div className='h-3 w-52 bg-gray-900 rounded-full relative '>
+                            <span className='absolute bg-cyan-300 h-3 w-40 rounded-full shadow-sm shadow-cyan-300'></span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
