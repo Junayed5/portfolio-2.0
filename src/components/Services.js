@@ -20,7 +20,7 @@ const Services = () => {
                     </div>
                     <div className='h-96 w-80 bg-gray-700 rounded-3xl px-5 py-8'>
                         <BiCodeAlt className='text-cyan-300 font-bold text-5xl mx-auto'/>
-                        <h3 className='text-center text-2xl font-bold py-3'>Web Development</h3>
+                        <h3 className='text-center text-2xl font-bold py-3'>Frontend development</h3>
 
                         <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vero eius voluptatum officia possimus distinctio repudiandae, quo sed aliquid nesciunt quidem nostrum! Veritatis maiores cupiditate asperiores </p>
 
@@ -30,7 +30,7 @@ const Services = () => {
                     </div>
                     <div className='h-96 w-80 bg-gray-700 rounded-3xl px-5 py-8'>
                         <BiCodeAlt className='text-cyan-300 font-bold text-5xl mx-auto'/>
-                        <h3 className='text-center text-2xl font-bold py-3'>Web Development</h3>
+                        <h3 className='text-center text-2xl font-bold py-3'>Project base</h3>
 
                         <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vero eius voluptatum officia possimus distinctio repudiandae, quo sed aliquid nesciunt quidem nostrum! Veritatis maiores cupiditate asperiores </p>
 

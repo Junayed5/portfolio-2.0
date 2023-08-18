@@ -5,15 +5,15 @@ const AboutMe = () => {
         <section className="bg-gray-700 text-white py-16">
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2">
-                    <div className="md:col-span-1 px-12">
-                        <div className="h-48 w-48">
-                            <img className='w-fit' src="me.jpg" alt="" />
+                    <div className="md:col-span-1 px-12 pb-8 md:pb-0">
+                        <div className="h-full md:h-[500px] w-full md:w-[500px]">
+                            <img className='w-fit' src="my-image.png" alt="" />
                         </div>
 
                     </div>
-                    <div className="md:col-span-1 px-4">
-                        <h1 className="text-5xl font-bold mb-4">About <span className='text-cyan-300'>Me</span></h1>
-                        <h3 className='text-3xl font-bold mb-4'>
+                    <div className="md:col-span-1 px-10 md:px-4">
+                        <h1 className="text-3xl md:text-5xl font-bold mb-2 md:mb-4">About <span className='text-cyan-300'>Me</span></h1>
+                        <h3 className='text-2xl md:text-3xl font-bold mb-2 md:mb-4'>
                             Frontend Developer!
                         </h3>
 

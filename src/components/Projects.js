@@ -3,6 +3,28 @@ import '../App.css'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 
 const Projects = () => {
+
+    const myProjects = [
+        {
+            name: "web design",
+            description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, fugit.",
+            liveLink: "",
+            gitLink: ""
+        },
+        {
+            name: "web design",
+            description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, fugit.",
+            liveLink: "",
+            gitLink: ""
+        },
+        {
+            name: "web design",
+            description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, fugit.",
+            liveLink: "",
+            gitLink: ""
+        },
+    ]
+
     return (
         <div className="bg-gray-800 text-white py-16">
             <div className="container mx-auto">
