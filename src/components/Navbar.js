@@ -15,7 +15,7 @@ const Navbar = () => {
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
                             <a href="#" className="text-white font-semibold text-xl">
-                                Portfolio.
+                                Md Junayed
                             </a>
                         </div>
                         <div className="hidden md:flex">
