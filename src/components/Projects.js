@@ -14,6 +14,13 @@ const Projects = () => {
             gitLink: "https://github.com/ranawp/taskla"
         },
         {
+            name: "Jobbox",
+            image: "https://i.ibb.co/G3Rb8w7/jobbox.png",
+            description: "A job seeker searching their jobs and apply. And viewing full description and communicate with client.",
+            liveLink: "https://job-sicker.netlify.app/",
+            gitLink: "https://github.com/Junayed5/Redux-jobbox"
+        },
+        {
             name: "Computer Parts",
             image: "https://i.ibb.co/XpGhPDY/project2.png",
             description: "Developed for computer parts manufacturers, this website provides information about their products.",
@@ -34,7 +41,7 @@ const Projects = () => {
             <div className="container mx-auto">
                 <h3 className='text-5xl font-bold text-center pb-10'>Latest <span className='text-cyan-300'>Projects</span></h3>
 
-                <div className='w-5/6 mx-auto grid grid-cols-1 md:grid-cols-3 align-middle gap-y-5 md:gap-y-0'>
+                <div className='w-5/6 mx-auto grid grid-cols-1 md:grid-cols-3 align-middle gap-y-5 md:gap-y-5 lg:gap-y-5'>
                     {
                         myProjects.map(project => {
                             const { name, image, description, liveLink, gitLink } = project;
