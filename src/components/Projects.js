@@ -58,9 +58,9 @@ const Projects = () => {
       name: "Nirvoya",
       image: "https://i.ibb.co.com/kSQb8nd/enchanting-bonbon-3a1a32-netlify-app-1.png",
       description:
-        "This is the practice project using React Context API user can add to cart and remove from cart.",
+        "This is the practice project using React",
       liveLink: "https://enchanting-bonbon-3a1a32.netlify.app/",
-      gitLink: "https://github.com/Junayed5/ecommerce-webapp",
+      gitLink: "https://github.com/Junayed5/nirvoya-design-task",
     },
   ];
 
@@ -82,8 +82,8 @@ const Projects = () => {
                   alt=""
                 />
                 <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-cyan-300 to-[rgba(0,0,0,.1)] flex justify-center align-middle flex-col text-center px-3 translate-y-full ease-out duration-500 hover:translate-y-0 detail-container">
-                  <h3 className="font-bold text-2xl">{name}</h3>
-                  <p className="text-xl mx-3 my-2">{description}</p>
+                  <h3 className="font-bold text-xl">{name}</h3>
+                  <p className="text-sm mx-3 my-2">{description}</p>
                   <div className="flex px-20  ">
                     <a
                       className="w-full flex justify-center"
